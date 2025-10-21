@@ -6,7 +6,7 @@ This project demonstrates security testing using Kali Linux, Burp Suite, and the
 
 ## Features
 - Kali Linux setup for penetration testing
-- Installation and configuration of DVWA on a local server
+- Installation of Metasploitable 2 machine(vulnerable web application) 
 - Use of Burp Suite Community Edition for web application testing
 - Exploration of various web vulnerabilities including:
   - SQL Injection (Blind/Classic)
@@ -17,26 +17,16 @@ This project demonstrates security testing using Kali Linux, Burp Suite, and the
 
 ## Prerequisites
 - Kali Linux installed on VMware or other virtualization platform
-- Apache web server, MySQL/MariaDB installed and configured
+- Download and installed Metasploitable 2 vuln machine from web resource
 - Burp Suite Community Edition installed on Kali Linux
 - Basic knowledge of Linux command line and networking
 
 ## Setup Instructions
-1. Clone the Damn Vulnerable Web Application (DVWA) repository:
-   ```
-   git clone https://github.com/digininja/DVWA.git
-   ```
-2. Move the cloned DVWA folder to your web server root, typically `/var/www/html/`.
-3. Copy the configuration file template:
-   ```
-   cp config/config.inc.php.dist config/config.inc.php
-   ```
-4. Edit `config/config.inc.php` to set database credentials and other configuration options.
-5. Start MySQL/MariaDB service and create the DVWA database and user with appropriate privileges.
-6. Restart Apache server.
-7. Access DVWA via browser at `http://localhost/DVWA/setup.php` and complete the database setup.
-8. Launch Burp Suite and configure your browser to use Burp as a proxy for testing.
-9. Begin exploring DVWA vulnerabilities through the web interface and Burp Suite tools.
+1.Run the kali linux and Metasploitable 2 machine 
+2.metasploitable machine username password is msfadmin:msfadmin
+3. Access DVWA via browser at `http://localhost` and complete the database setup.
+4. Launch Burp Suite and configure your browser to use Burp as a proxy for testing.
+5. Begin exploring DVWA vulnerabilities through the web interface and Burp Suite tools.
 
 ## Usage
 - Use DVWA to practice exploitation of different web vulnerabilities.
@@ -45,7 +35,6 @@ This project demonstrates security testing using Kali Linux, Burp Suite, and the
 - Refer to included project documentation for detailed vulnerability descriptions and test cases.
 
 ## References
-- [DVWA GitHub Repository](https://github.com/digininja/DVWA)
 - [Kali Linux Documentation](https://www.kali.org/docs/)
 - [Burp Suite Community Edition](https://portswigger.net/burp/communitydownload)
 - OWASP Web Security Testing Guide
