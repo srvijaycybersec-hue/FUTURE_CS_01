@@ -12,6 +12,7 @@ This project demonstrates security testing using Kali Linux, Burp Suite, and the
   - SQL Injection (Blind/Classic)
   - Cross-Site Scripting (Reflected/Stored/DOM)
   - Command Injection
+  - ftp port bruteforce attack and exploit using metasploit framework
 - Step-by-step demonstration of vulnerability exploitation
 - Security level configuration in DVWA for practice from low to high security
 
