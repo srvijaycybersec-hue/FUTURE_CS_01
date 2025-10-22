@@ -10,9 +10,9 @@ This project demonstrates security testing using Kali Linux, Burp Suite, and the
 - Use of Burp Suite Community Edition for web application testing
 - Exploration of various web vulnerabilities including:
   - SQL Injection (Blind/Classic)
-  - Cross-Site Scripting (Reflected/Stored/DOM)
+  - Cross-Site Scripting (Reflected)
   - Command Injection
-  - ftp port bruteforce attack and exploit using metasploit framework
+  - FTP port bruteforce attack(exploit) using metasploit framework
 - Step-by-step demonstration of vulnerability exploitation
 - Security level configuration in DVWA for practice from low to high security
 
